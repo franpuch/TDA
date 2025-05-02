@@ -1,0 +1,67 @@
+# Archivos de configuración de VS Code.
+.vscode/
+
+# Archivos binarios de C/C++.
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Archivos objeto y otros intermedios.
+*.o
+*.obj
+*.gch
+*.pch
+
+# Archivos de dependencias.
+*.d
+
+# Archivos de ensamblado.
+*.s
+*.asm
+
+# Archivos de registro o logs.
+*.log
+
+# Archivos de respaldo / temporales de editores.
+*~
+*.swp
+*.tmp
+*.bak
+
+# Directorios de compilación comunes (por si uso CMake, Makefile o similares).
+build/
+Build/
+bin/
+out/
+debug/
+release/
+
+# Archivos generados por herramientas de CMake.
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Otros generados por algunos entornos de desarrollo.
+*.manifest
+*.tlog
+*.idb
+*.pdb
+*.ipch
+*.opensdf
+*.sdf
+*.db
+
+# Archivos de configuración personal.
+*.user
+*.suo
+*.ncb
+*.mode1
+*.mode2
+*.pbxuser
+*.wsp
+*.VC.db
+*.VC.opendb
